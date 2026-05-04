@@ -27,13 +27,9 @@ int main() {
     REG funcionario;
 
     funcionario.salario = 0;
-
     printf("Salario antes: R$ %.2f\n", funcionario.salario);
-
     atribuirSalario(&funcionario, 3500.00);
-
-    printf("Salario depois: R$ %.2f\n", funcionario.salario);
-
+    printf("Salario depois: R$ %.2f\n", funcionario.salario);   
     return 0;
 }
 
