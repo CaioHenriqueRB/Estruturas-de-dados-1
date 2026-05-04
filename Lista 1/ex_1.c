@@ -48,7 +48,6 @@ void imprimirSaldo(ContaBancaria *conta) {
     printf("Saldo:   R$ %.2f\n\n", conta->saldo);
 }
 
-// Teste
 int main() {
     ContaBancaria conta;
 
